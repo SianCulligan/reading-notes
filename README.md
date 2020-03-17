@@ -20,3 +20,18 @@
 - It allows us to use packages created and shared by independent developers
 
 
+
+
+*Class 02 Reading*
+
+**What is one benefit of JavaScript not enforcing type?**
+- You can change the type on the fly, as needed.
+
+**What is one downside of JavaScript not enforcing type?**
+- You can get into situations where your variable is not containing the type of data that it should. These kinds of errors can become very hard to track and solve in large code bases.
+
+**Should the parameters of a function be changed when the function returns? Why or why not?**
+- Depends on the situation, if we're able to change parameters, we can re-use functions to do different tasks.
+
+**Describe a type of data that has rules, aside from the given examples of Number, Integer and Float. What are the rules the data should follow?**
+- A boolean, which represents only one of two values: true or false.
