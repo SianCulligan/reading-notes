@@ -35,3 +35,27 @@
 
 **Describe a type of data that has rules, aside from the given examples of Number, Integer and Float. What are the rules the data should follow?**
 - A boolean, which represents only one of two values: true or false.
+
+
+
+
+
+
+*Class 03 Reading*
+
+**Why would a developer choose to make data models?**
+- Provides structure and consensus for end project. Almost as if to establish best practices, but for software.
+
+**What purpose do CRUD operations serve?**
+- Provides a mempoable framework, these operations link to a series of commands.
+
+**What kind of database is Postgres? What kind of database is MongoDB?**
+- Postgres os a SQL database, more rigid and stuctured, MongoDB is a noSql database that can use a variety of languages to access data
+
+**What is Mongoose and why do we need it?**
+- It is the most popular, NoSQL database that allows flexibility with data as an app evolves/ 
+
+**Define three related pieces of data in a possible application. An example for a store application might be Product, Category and Department. Describe the contraints and rules on each piece of data and how you would relate these pieces to each other. For example, each Product has a Category and belongs in a Department.**
+- Customer: Has both a birthday and hair color
+- Birthday: Belongs to the customer, but does not have a hair color 
+- Hair Color: Attribute of the customer, no birthday
