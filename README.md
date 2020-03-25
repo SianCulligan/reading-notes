@@ -19,7 +19,8 @@
 **What does the node package manager do?**
 - It allows us to use packages created and shared by independent developers
 
-
+<br><br>
+<br><br>
 
 
 *Class 02 Reading*
