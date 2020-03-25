@@ -38,7 +38,8 @@
 
 
 
-
+<br><br>
+<br><br>
 
 
 *Class 03 Reading*
@@ -59,3 +60,22 @@
 - Customer: Has both a birthday and hair color
 - Birthday: Belongs to the customer, but does not have a hair color 
 - Hair Color: Attribute of the customer, no birthday
+
+
+<br><br>
+<br><br>
+
+
+*Class 04 Reading*
+
+**What makes an interface useful?**
+- It standarizes and simplifies complex operations 
+
+**Why is middleware called middleware?**
+- It's software that exists between two other software, or. more literally, middle software. 
+
+**Fundamentally, what does it mean to have a mock of something? Why is this useful?**
+-  Mocks are fake methods  with pre-programmed behavior as well as pre-programmed expectations. This is useful while in the tesing phase of developement.
+
+**What does it mean to have a mock database?**
+- Creating a fake database with the samesame structure, data models, and commands but it only exists for the lifetime of the test.
