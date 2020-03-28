@@ -80,3 +80,28 @@
 
 **What does it mean to have a mock database?**
 - Creating a fake database with the samesame structure, data models, and commands but it only exists for the lifetime of the test.
+
+<br><br>
+<br><br>
+
+*Class 05 Reading*
+
+**What is a data structure?**
+-  A data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data. 
+[Wikipedia page definition](https://en.wikipedia.org/wiki/Data_structure) 
+* Examples include: variables, arrays, hashes, and objects
+
+**How is a Linked List different from an array?**
+- Arrays are more rigid, more difficult to change & memory managment
+- Arrays are static data structures where linked lists are dynamic
+
+**What is one benefit a Linked List has over an array?**
+- It is simpler to change a linked list than it is to change an array
+
+**What data does a Node hold in a doubly Linked List?**
+- Sequentially linked records
+
+**What would you use to implement a Linked List data type? (object, function, class, variable…?)**
+- I'm not enitrely sure on this one, I believe we'd use a class to create a constructor for adding items to the linked list, but I feel like that's wrong. Looking forward to learning more about it! 
+
+
