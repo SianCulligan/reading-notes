@@ -105,3 +105,52 @@
 - I'm not enitrely sure on this one, I believe we'd use a class to create a constructor for adding items to the linked list, but I feel like that's wrong. Looking forward to learning more about it! 
 
 
+<br><br>
+<br><br>
+
+### Engineering Topics
+
+#### Solving Problems
+- The most common mistake while watching someone try to solve a programming problem is they try to start writing code as soon as possible. You must resist this urge
+1. Read the problem completely twice.
+-  A good test of this is whether or not you can explain the problem to someone else. 
+
+2. Solve the problem manually with 3 sets of sample data.
+- Solve the problem manually first, so that you know what you are going to automate, otherwise you are just slinging code around.
+
+3. Optimize the manual steps.
+- Figure out if there is another way you can solve the problem easier, or if there are some steps you can cut our or simplify.
+
+4. Write the manual steps as comments or pseudo-code.
+- Capture all the steps we created and now either put them into our editor as comments or write them as psuedo-code that we can translate to real code
+
+5. Replace the comments or pseudo-code with real code.
+- All we do here is take each comment and convert it into a real line of code.
+
+6. Optimize the real code.
+- It's important having good names for your variables and methods is for helping the person evaluating your code to understand what you were trying to do
+
+* As much as 70% of our time should be spent in steps 1-3.
+
+#### Act like you make $1000/hr
+- If you let it, your world and the people around you will take all your time. Your time is not unlike your paycheck; if you don’t budget for things, you’ll have nothing left over by the end of the month
+
+- Extremely successful people don’t tolerate busywork or distraction. They have crystal clear vision on their goals, and do what they need to do to get there, every single day.
+
+#### How to think like a programmer
+1. Understand 
+- Know exactly what is being asked.
+2. Plan
+- Don’t dive right into solving without a plan (and somehow hope you can muddle your way through). Plan your solution!
+3. Divide
+- **Do not try to solve one big problem. You will cry.**
+- Break up your problem, solve each sub-problem one by one. Begin with the simplest. Simplest means you know the answer (or are closer to that answer).
+4. Stuck?
+- Debug: Go step by step through your solution trying to find where you went wrong. Programmers call this debugging (in fact, this is all a debugger does).
+
+- Practice 
+
+#### The 5 Whys & Hows
+- The five whys and five hows constitute a questioning process designed to drill down into the details of a problem or a solution and peel away the layers of symptoms.
+- Why? To explore the root of the problem & really dig in
+- How? Start with an issue or solution to be explored, as either how or why 5 times digging to get to the root
