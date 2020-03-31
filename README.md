@@ -1,8 +1,8 @@
 # Reading Notes
 
-**Code 401 - Advanced Software Development**
+## Code 401 - Advanced Software Development**
 
-*Class 01 Reading*
+### *Class 01 Reading*
 
 **Why would you want to run JavaScript code outside of a browser?**
 - Running JavaScript outside a browser means you are using node. js to execute your JavaScript code - this allows us to use JavaScript without using an HTML page to run functions. 
@@ -23,7 +23,7 @@
 <br><br>
 
 
-*Class 02 Reading*
+### *Class 02 Reading*
 
 **What is one benefit of JavaScript not enforcing type?**
 - You can change the type on the fly, as needed.
@@ -43,7 +43,7 @@
 <br><br>
 
 
-*Class 03 Reading*
+### *Class 03 Reading*
 
 **Why would a developer choose to make data models?**
 - Provides structure and consensus for end project. Almost as if to establish best practices, but for software.
@@ -67,7 +67,7 @@
 <br><br>
 
 
-*Class 04 Reading*
+### *Class 04 Reading*
 
 **What makes an interface useful?**
 - It standarizes and simplifies complex operations 
@@ -84,7 +84,7 @@
 <br><br>
 <br><br>
 
-*Class 05 Reading*
+### *Class 05 Reading*
 
 **What is a data structure?**
 -  A data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data. 
@@ -104,6 +104,24 @@
 **What would you use to implement a Linked List data type? (object, function, class, variable…?)**
 - I'm not enitrely sure on this one, I believe we'd use a class to create a constructor for adding items to the linked list, but I feel like that's wrong. Looking forward to learning more about it! 
 
+<br><br>
+<br><br>
+
+### *Class 06 Reading*
+**What does protocol mean?**
+- A protocol is a set of rules that must be followed
+
+**How does any web browser understand how to open any webpage?**
+- Through a URL & Headers
+
+**Name one thing a request object must have, and one thing a response object must have**
+- Request must have a URL and the response must serve the body
+
+**What is the difference between HTTP and REST?**
+- HTTP is a communications protocol that transports messages over a network, Rest is a protocol to exchange any XML or JSON messages that can use HTTP to transport those messages. (credit to [Stack Overflow](https://stackoverflow.com/questions/2190836/what-is-the-difference-between-http-and-rest))
+
+**Why is REST important?**
+- For consistency! It's a collection of guidelines to give various servers a sense of consistency. If every API adopts the same standards, it makes it easier for clients to understand how to use your API!
 
 <br><br>
 <br><br>
