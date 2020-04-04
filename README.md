@@ -126,6 +126,46 @@
 <br><br>
 <br><br>
 
+### *Class 07 Reading*
+**What code does the server actually run?**
+-  The server runs handlers for different types of events.
+
+**What Express/HTTP operations map to CRUD operations?**
+- ``GET`` 
+- ``POST``
+- ``PUT``
+- ``DELETE``
+
+**What does res.send() do?**
+- It sends a string response (res) in a format other than JSON. 
+
+**What is the order of operations for the three categories of middleware (handler, application, route)?**
+- Application: Run when the server recieves a request.
+- Route: Runs when the server receives a request to a specific endpoint. 
+- Handler: Runs when the server receives a specifc method request to a specified route.
+
+**What is the parameter next used for?**
+- Calling the next middleware in the chain or calling an error
+
+<br><br>
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Engineering Topics
 
 #### Solving Problems
