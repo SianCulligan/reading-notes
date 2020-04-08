@@ -152,6 +152,17 @@
 
 
 
+### *Class 08 Reading*
+**What is a benefit to using express.Router()?**
+- Separation of concerns type of thinking. Using express.Router() we can house each major routing branch in a separate file 
+
+**When I say that top-down order matters in Express, what does that mean?**
+- The order of operations will run from top down, functions and other code that relies on different information will need to be run in such an order that the 'parent' code runs above the next block.
+
+**Why do we use a model class (with create(), read(), etc.) instead of directly calling MongoDB operations (such as save(), find(), etc.) within our Express route handlers?**
+- In order te ensure all data is collected before calling mongo then deliver a status code back to the user.
+<br><br>
+<br><br>
 
 
 
