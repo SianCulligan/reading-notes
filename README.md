@@ -169,10 +169,22 @@
 
 
 
+### *Class 09 Reading*
+1. Describe a use-case where param middleware would come in handy.
+- We can set middleware to run whenever a speicfied paramerter is present. It can be particularly useful for validating or formatting the req.params key-value before hitting a param
 
+2. What are the two ways to add middleware in-between Mongoose and MongoDB interactions?
+- app.param OR router.param - NO 'S'!
 
+3. What is the difference between a join by reference and a virtual join?
+- Join by reference: When the field is equal to an ID of another schema & mongoose replaces the ID with the full record
+- Virtual join: Join by name instead of ID 
 
+4. What do localField and foreignField mean?
+- Having issues finding this one - looks like you use both together, possibly local stores it & foreign  keeps track of it? 
 
+<br><br>
+<br><br>
 
 
 
