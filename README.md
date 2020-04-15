@@ -186,6 +186,31 @@
 <br><br>
 <br><br>
 
+### *Class 10 Reading*
+1. Why is authentication important?
+- Restricting access to information
+
+2. Why should we be careful about storing a user’s password?
+- If not properly encrypted, a users private data & passwords could be leaked
+
+3. What is the difference between hashing and encryption?
+ - Encryption is a two-way function & the data can be decrypted with the proper key
+ - Hashing is a one-way function that scrambles plain text to produce a unique message digest. There is no way to reveal the original password
+ - (source: https://gcn.com/articles/2013/12/02/hashing-vs-encryption.aspx)
+
+4. What is the difference between encryption and encoding?
+- Encryption is for maintaining data confidentiality and requires the use of a key in order to return to plaintext.
+- Encoding is for maintaining data usablity & can be reversed by employing the same algprithm that encoded the content (no key needed).
+- (source: https://hackercombat.com/forum/network-security/whats-the-difference-between-encoding-encryption-and-hashing/)
+
+5. What is a token used for?
+- A token is used to make security decisions and to store tamper-proof information about some system entity
+
+<br><br>
+<br><br>
+
+
+
 
 
 
