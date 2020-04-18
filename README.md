@@ -215,7 +215,7 @@
 - Reversing a word
 
 2. Come up with an application scenario where you would want to use a queue.
-- I have no clue - will update after class tomorrow
+- A ticket buying app or pre-sale vendor thath puts users into an order
 
 3. Why are pop, push, enqueue and dequeue always O(1)?
 - It takes the same amount of time no matter how many Nodes (n) you have in the stack.
