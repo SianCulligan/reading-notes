@@ -226,7 +226,30 @@
 <br><br>
 <br><br>
 
+### *Class 12 Reading*
 
+1. What’s a benefit of using OAuth instead of your own basic authentication?
+-  It standardizes how independent web applications can share user data without sharing user passwords. Instead of a password, your site recieves less sensitive information like your name, email, profile picture, etc.
+
+2. Write the following steps in the correct order:
+* Make a request to a third-party API endpoint
+* Redirect to a third party authentication endpoint
+* Ask the client if they want to sign in via a third party
+* Receive authroization code
+* Register your application to get a client_id and client_secret
+* Receive access token
+* Make a request to the access token endpoint
+
+3. What can you do with an authorization code?
+- Read data from the user’s account
+
+4. What can you do with an access token?
+- Sign in a user & read that user's data
+
+
+
+<br><br>
+<br><br>
 
 ### Engineering Topics
 
