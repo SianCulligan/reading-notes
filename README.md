@@ -246,7 +246,34 @@
 4. What can you do with an access token?
 - Sign in a user & read that user's data
 
+<br><br>
+<br><br>
 
+### *Class 13 Reading*
+
+1. When is Basic Authorization used vs. Bearer Authorization?
+- Basic takes in a username and client secret, bearer takes in a token
+
+2. What does the JSON Web Token package do?
+- Defines a compact and self-contained way to securely transmit information between two systems (servers, clients, etc.) as a JSON object. 
+
+3. What considerations should we make when creating and storing a SECRET?
+- They are not as secure as a standard encrypted string, so there is still a risk that the encrypted content could be hacked into. Due to this, do not to put any sensitive user data into the token. 
+
+
+<br><br>
+<br><br>
+
+### *Class 14 Reading*
+1. Why is access control important? Describe an application that would need access control.
+- Access control is important to keep the integrity of some data/apps at a certain level. An example would be any program used by HR in company - only a manager would be able to see and adjust thier employees salary, where as the employee may only be able to input their hours.
+
+2. What is a role used for?
+- Defining what the user capabilities will be able and what they'll be able to do on a site
+
+
+3. Why is role based access control more scalable than discretionary or mandatory access control?
+- In both the mandatory & discresionary access control situations, it seems that a single authority has to allocate access for certain users - when it reaches millions of users, this could be difficult, if not impossible, to manage. If every user is automatically assigned to a role and that role is clear on what access they need, it can be automated & simplified only needing an adjustment if they change roles.
 
 <br><br>
 <br><br>
