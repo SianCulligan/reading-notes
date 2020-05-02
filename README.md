@@ -275,6 +275,27 @@
 3. Why is role based access control more scalable than discretionary or mandatory access control?
 - In both the mandatory & discresionary access control situations, it seems that a single authority has to allocate access for certain users - when it reaches millions of users, this could be difficult, if not impossible, to manage. If every user is automatically assigned to a role and that role is clear on what access they need, it can be automated & simplified only needing an adjustment if they change roles.
 
+
+<br><br>
+<br><br>
+
+### *Class 15 Reading*
+
+1. What is a leaf node? Why is it important to be able to find leaf nodes?
+- The leaf node is the last node in a tree with no attached edges - when traversing a tree, once it hits a leaf and both left and right return null, it will end the execution of the method.
+
+2. Describe the differences between pre-order, in-order, and post-order traversal. Why are they called pre, in, and post order?
+- PRE: means that the root has to be looked at first/top to bottom
+- POST: this means that the root is looked at last/bottom to top
+- IN: reads the tree from left to right
+
+3. What is the height of a fully balanced (each non-leaf node has two children) tree? What is this used for?
+- log(n) , used for searching. If a tree is balanced, it is easier to say for sure how the big O is going to look. If unbalanced, worse case, one side could be O(1) where the other is o(n)
+
+4. How are stacks and queues used in relation to trees?
+- They are used to hold the place of the traversal as it goes through the tree - as if reaches a leaf, values are popped or dequeued onto the return
+
+
 <br><br>
 <br><br>
 
