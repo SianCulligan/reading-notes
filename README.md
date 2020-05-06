@@ -295,9 +295,78 @@
 4. How are stacks and queues used in relation to trees?
 - They are used to hold the place of the traversal as it goes through the tree - as if reaches a leaf, values are popped or dequeued onto the return
 
+<br><br>
+<br><br>
+
+### *Class 16 Reading*
+1. Given the examples of front-end events such as button click, window resize, form submit, etc, what are some examples of back-end events?
+- Getting data from a database, setting a timeout, reading a file, threads, events, event queue, and event loop.
+
+
+2. Why are events sometimes better than asynchronous actions with callbacks?
+- Asynchronous actionst can take an unknown amount of time and we don’t want our application to be on pause,
+
+3. What does an EventEmitter instance do?
+- The EventEmitter class allows us to both raise new events and to listen to events that have been raised.
+
+4. When is a program’s call stack, event queue, and event loop active?
+- When we call ``emit`` in our code
 
 <br><br>
 <br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Engineering Topics
 
