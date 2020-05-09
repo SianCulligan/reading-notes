@@ -312,6 +312,26 @@
 4. When is a program’s call stack, event queue, and event loop active?
 - When we call ``emit`` in our code
 
+
+<br><br>
+<br><br>
+
+### *Class 17 Reading*
+
+1. What do the layers in the OSI and TCP/IP models represent?
+- A series of rules or the fundamental pieces of the process of connecting 2 systems to ensure security & that each application knows what to do
+
+2. What is the benefit of transforming data into packets?
+- They're easier to send over the internet
+
+3. UDP is often referrered to as a connectionless protocol. Why is this?
+- When transferring data it doesn’t establish a strong secure connection between the sending server and the receiving server
+
+4. Can a socket server application have multiple socket connections? Can a socket connection application be connected to multiple socket servers? Can an application be both a socket server and a socket connection?
+- Yes
+- No
+- Yes??
+ 
 <br><br>
 <br><br>
 
