@@ -335,6 +335,17 @@
 <br><br>
 <br><br>
 
+### *Class 18 Reading*
+1. What does it mean that web sockets are bidirectional? Why is this useful?
+- The sockets are ever-connected & two-way. Web sockets remain connected during their lifetime, and they are well suited for real-time data transfer over the web.
+2. Does socket.io use HTTP? Why?
+- Yes, because they are geared at creating web sockets, they can take advantage of some of the HTTP protocol benefits. socket.io connects to both HTTP & TCP. The HTTP layer is to ensure that the connection is kept active and authenticated.
+3. What happens when a client emits an event? What happens when a server emits an event?
+- The client can emit an event to the server, and the server can emit an event to other connected clients/apps.
+
+<br><br>
+<br><br>
+
 
 
 
@@ -433,4 +444,4 @@
 #### The 5 Whys & Hows
 - The five whys and five hows constitute a questioning process designed to drill down into the details of a problem or a solution and peel away the layers of symptoms.
 - Why? To explore the root of the problem & really dig in
-- How? Start with an issue or solution to be explored, as either how or why 5 times digging to get to the root
+- How? Start with an issue or solution to be explored, as either how or why 5 times digging to get to the root. 
