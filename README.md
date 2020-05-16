@@ -338,10 +338,25 @@
 ### *Class 18 Reading*
 1. What does it mean that web sockets are bidirectional? Why is this useful?
 - The sockets are ever-connected & two-way. Web sockets remain connected during their lifetime, and they are well suited for real-time data transfer over the web.
+
 2. Does socket.io use HTTP? Why?
 - Yes, because they are geared at creating web sockets, they can take advantage of some of the HTTP protocol benefits. socket.io connects to both HTTP & TCP. The HTTP layer is to ensure that the connection is kept active and authenticated.
+
 3. What happens when a client emits an event? What happens when a server emits an event?
 - The client can emit an event to the server, and the server can emit an event to other connected clients/apps.
+
+<br><br>
+<br><br>
+
+### *Class 19 Reading*
+1. What is the main benefit of a message queue server?
+- Connects clients with the data they need. 
+
+2. Why might we want to initiate messages from an HTTP request?
+- When the event is reciceved iva /post, the action can then be triggered.
+
+3. Is the Message Queue Server a socket.io client, a socket.io server, or an api server?
+- I believe this is a socket.io server, reiceiving messages from the api server, then serving messages to the socket client
 
 <br><br>
 <br><br>
