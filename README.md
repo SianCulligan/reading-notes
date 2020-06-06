@@ -361,6 +361,25 @@
 <br><br>
 <br><br>
 
+### *Class 20 Reading*
+1. What is the benefit of breaking up HTML webpage content into components?
+- Makes it easier for continuity between pages
+
+2. What is JSX? Why is it useful?
+- Short for JavaScript XML - it allows for JavaScript and HTML to be seemlessly mixed together 
+
+3. What can cause a render (or re-render) of a component?
+- A structural change, changing a component’s state variable
+
+4. When a render happens, how is the DOM affected
+-  The components appear on the page & within the DOM 
+
+5. What is one thing a framework does that a library doesn’t do?
+- When you call a method from a library, you are in control. But with a framework, the control is inverted: the framework calls you. (src:https://www.programcreek.com/2011/09/what-is-the-difference-between-a-java-library-and-a-framework/#:~:text=The%20key%20difference%20between%20a,a%20collection%20of%20class%20definitions. )
+
+<br><br>
+<br><br>
+
 
 
 
