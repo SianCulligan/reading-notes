@@ -361,7 +361,7 @@
 <br><br>
 <br><br>
 
-### *Class 20 Reading*
+### *Class 21 Reading*
 1. What is the benefit of breaking up HTML webpage content into components?
 - Makes it easier for continuity between pages
 
