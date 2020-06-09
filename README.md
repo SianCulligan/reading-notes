@@ -380,6 +380,20 @@
 <br><br>
 <br><br>
 
+### *Class 22 Reading*
+1. Describe a case where snapshot testing would be useful, and describe another case where it would be ineffective.
+- EFFECTIVE: For a fully developed UI page that you want to ensure does not change throughout development
+- INEFFECTIVE: During development when the UI is constantly changing
+
+2. What is the difference between full mount and shallow mount?
+- Full mounting allows you render the entire component as well as any children components. Shallow mounting minimized the render of any imported components, and instead focuses on fully rendering the current component only.
+
+3. What does npm run build do?
+-  It lets you perform any necessary building/prep tasks for your project, prior to it being used in another project.
+ By running npm run build, it optimizes your React code for production deployment. Once run, this script creates a seemingly static website with just an index.html
+<br><br>
+<br><br>
+
 
 
 
