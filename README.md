@@ -391,6 +391,20 @@
 3. What does npm run build do?
 -  It lets you perform any necessary building/prep tasks for your project, prior to it being used in another project.
  By running npm run build, it optimizes your React code for production deployment. Once run, this script creates a seemingly static website with just an index.html
+
+<br><br>
+<br><br>
+
+### *Class 23 Reading*
+1. Why might you want to create a FormInput component?
+- To hold form data
+
+2. Can a parent component access the state of a child component?
+- Yes ( I think? ) - by using props, I see that the  child component doesn't have tp wrry about the state, but I cannot tell if the parent can access the child's state
+
+3. What can be passed along in a prop variable?
+- Static variable data or entire functions
+
 <br><br>
 <br><br>
 
