@@ -408,6 +408,22 @@
 <br><br>
 <br><br>
 
+### *Class 24 Reading*
+1. Why do we not need more .html pages in a multi-page React app?
+- Instead of adding additional pages, we'll be using ```react-router-dom``` which allows us to essentially build a switch statement of what components are rendered based on the browser URL.
+
+2. If we wanted a component to show up on every page, where would we put it and why?
+>Outside the <BrowserRouter/>
+>Inside the <BrowserRouter />, outside a <Route />
+>Inside a <Route />
+- Inside a <Route />
+
+3. What does props.children contain?
+- It is used to display whatever you include between the opening and closing tags when invoking a component.
+
+<br><br>
+<br><br>
+
 
 
 
