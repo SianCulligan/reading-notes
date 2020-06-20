@@ -416,7 +416,7 @@
 >Outside the <BrowserRouter/>
 >Inside the <BrowserRouter />, outside a <Route />
 >Inside a <Route />
-- Inside a <Route />
+- Outside the <BrowserRouter/>
 
 3. What does props.children contain?
 - It is used to display whatever you include between the opening and closing tags when invoking a component.
@@ -424,9 +424,22 @@
 <br><br>
 <br><br>
 
+### *Class 25 Reading*
+1. Is a HashTable useful for search or sorting operations? Why?
+- Searching - If you have the key, you can easily retrieve the value. Previously we had to do a for loop over the array searching for the desired value.
 
 
+2. What makes a good hash function?
+- One which never has any collisions 
 
+3. Why should you try to reduce the number of collisions?
+- The keys can start over-writing each other causing data loss
+
+4. What is stored at each index of a HashTable? Why?
+- key value pairs, so each entry can be easily accessed when needed.
+
+<br><br>
+<br><br>
 
 
 
