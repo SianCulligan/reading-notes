@@ -438,6 +438,22 @@
 4. What is stored at each index of a HashTable? Why?
 - key value pairs, so each entry can be easily accessed when needed.
 
+
+
+
+<br><br>
+<br><br>
+
+### *Class 26 Reading*
+1. What does a component’s lifecycle refer to?
+- Functions that are automatically called by React when a class component renders, mounts, changes, unmounts, etc
+
+2. Why are functional components preferred over class components?
+- It reduces the code needed in components 
+
+3. What is wrong with the following code?
+- `useEffect` is used inside of a for loop
+
 <br><br>
 <br><br>
 
