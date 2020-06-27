@@ -457,6 +457,16 @@
 <br><br>
 <br><br>
 
+### *Class 27 Reading*
+1. Why do custom hooks need the use prefix?
+- 'Use' tells the React linter that it is acceptable for that function to utilize other hook functions inside of it
+2. What do custom hooks usually do?
+They are meant to run some JavaScript functionality. 
+3. Using the links above, list one custom hook that you would be interested in trying/using.
+- react-fetch-hook!!!
+<br><br>
+<br><br>
+
 
 
 
