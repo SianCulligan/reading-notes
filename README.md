@@ -464,21 +464,26 @@
 They are meant to run some JavaScript functionality. 
 3. Using the links above, list one custom hook that you would be interested in trying/using.
 - react-fetch-hook!!!
+
+
 <br><br>
 <br><br>
 
+### *Class 28 Reading*
 
 
+1. What is the difference between the variables MyContext and MyProvider in the examples above?
+- MyContext: Creates the context object
+- MyProvider: Creates the state variables
 
+2. Why is context useful?
+ - It allows a variable to be used in other computations / actions.
 
+3. Can a component outside of a provider get its context?
+- Yes
 
-
-
-
-
-
-
-
+<br><br>
+<br><br>
 
 
 
