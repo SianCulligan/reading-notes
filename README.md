@@ -482,6 +482,24 @@ They are meant to run some JavaScript functionality.
 3. Can a component outside of a provider get its context?
 - Yes
 
+
+<br><br>
+<br><br>
+
+### *Class 29 Reading*
+
+1. Why would you wrap your entire application within a context?
+ - To make your app a parent component and the rest descendants
+
+2. What is the purpose of a reducer?
+ - A reducer functions determines how to update the state
+
+3. What does an action contain?
+ - Like a callback - they are 'dispatched' by components triggering a reducer to be called 
+
+4. Why do we need to copy the state in a reducer?
+ - It needs to take in then update that state - take a switch statement, it would need to know what state it's in to switch it
+ 
 <br><br>
 <br><br>
 
