@@ -506,11 +506,6 @@ They are meant to run some JavaScript functionality.
 
 ### *Class 30 Reading*
 
-
-
-
-
-
 Graph: a non-linear data structure
     Veritces = Nodes
     Edges: The connecting line segments
@@ -560,15 +555,24 @@ Depth First Traversal: Traversing the graph vertically
 5. If the top node does not have any unvisited children, Pop that node off the stack
 6. Repeat until the stack is empty.
 
+<br><br>
+<br><br>
+
+### *Class 31 Reading*
+
+- *Combined Reducers*: Pulling in more than one reducer from source and creating a *keyed object* from them.
+
+Why combine reducers? 
+- Obey the Single Responsibility Principle: Each reducer really should have only 1 part of state to manage
+- Each reducer technically has it’s own actions and creators, however, they can cross over and both be dispatched.
 
 
 
 
 
 
-
-
-
+<br><br>
+<br><br>
 
 ### Engineering Topics
 
