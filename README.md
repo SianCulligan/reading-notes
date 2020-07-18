@@ -566,13 +566,39 @@ Why combine reducers?
 - Obey the Single Responsibility Principle: Each reducer really should have only 1 part of state to manage
 - Each reducer technically has it’s own actions and creators, however, they can cross over and both be dispatched.
 
+<br><br>
+<br><br>
 
+### *Class 32 Reading*
 
-
-
+- Thunk: a subroutine used to inject an additional calculation into another subroutine
+- We'll be using thunk middleware to use redux actions to connect to remotr APIs
+- This will inspects every dispatched action and then either lets it go through or it processes the function and then dispatches what that function returns.
+- In Redux, middleware is implemented as a curried function that ultimately evaluates the action and determines whether it’s a function or not
+    - Curried Function: A curried function is a function that takes multiple arguments one at a time. Given a function with 3 parameters, the curried version will take one argument and return a function that takes the next argument, which returns a function that takes the third argument.
 
 <br><br>
 <br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Engineering Topics
 
