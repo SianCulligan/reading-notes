@@ -580,6 +580,18 @@ Why combine reducers?
 <br><br>
 <br><br>
 
+### *Class 33 Reading*
+- *Redux Toolkit*: Because Redux is complicated, the makers have introduced a “Batteries Included, Highly Opinionated” framework for making stores.
+- Provides good defaults for store setup out of the box, and includes the most commonly used Redux addons built-in
+- In a typical application, you need to add RTK as a package dependency in your project. ```npm install @reduxjs/toolkit```
+- Replace the plain Redux createStore function with RTK's configureStore
+- *Slices*: The RTK createSlice function allows us to consolidate that logic in one place. It uses createReducer and createAction internally, so in most apps, you won't need to use them yourself - createSlice is all you need.
+
+- *Ducks*: An isolated module that is self contained, and can even be packaged easily into a library.
+
+<br><br>
+<br><br>
+
 
 
 
