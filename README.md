@@ -590,10 +590,9 @@ Why combine reducers?
 - *Ducks*: An isolated module that is self contained, and can even be packaged easily into a library.
 
 
-<br><br>
-<br><br>
 
-### *Class 34 Reading*
+
+
 - What is native development?
 - Why is it important to develop a native app vs a responsive react app?
 - It’s still just state and components (But no HTML or CSS - You can still “style” things using the framework guidelines)
@@ -605,6 +604,21 @@ Why combine reducers?
 - Running locally, you can use your own device or the official simulator
 - Only Apple users can test iPhones
 - Anyone can test android, but you need to start up an ADB from The Android Studio IDE
+
+<br><br>
+<br><br>
+
+### *Class 36 Reading*
+- *CRA*: Create React App
+- *NEXT.js*: Next.js a somewhat similar to Create React App, but supports server-side rendering. What it essentially means is that necessary HTML code is generated from the server itself, based on the URL. So your browser is receiving pre-rendered HTML code, not an empty ‘div’.
+- *Gatsby*: Gatsby is something called “Static Site Generator”. Those are generators which build “HTML” code during the “build”, by fetching data from some APIs, markdown files or anything. Note that everything is done in the “build” process. Similar to Next.js browser receives pre-rendered HTML code. 
+
+- *Product Landing Page:* Gatsby
+- *To Do App:* Next.js
+- *Blog:* Gatsby
+
+- If you’re building a blog or static website you should definitely try Gatsby. It offers a great developer experience as well as tools and plugins.
+
 <br><br>
 <br><br>
 
